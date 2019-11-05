@@ -6,7 +6,7 @@ define(function () {
     */
 
     // WARNING:   this file is generated automatically via
-    //            `node scripts/generate`
+    //            `node scripts/build.js`
     //            please update its `createTwemoji` function
     //            at the bottom of the same file instead.
 
