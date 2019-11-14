@@ -1,6 +1,6 @@
 {
   "version": "13.1.1",
-  "name": "twemoji",
+  "name": "@discordapp/twemoji",
   "license": [
     "MIT",
     "CC-BY-4.0"
