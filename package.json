@@ -46,6 +46,7 @@
   },
   "files": [
     "dist/twemoji*.js",
+    "dist/svg/*.svg",
     "index.d.ts"
   ]
 }
