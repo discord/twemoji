@@ -6,7 +6,7 @@
     "CC-BY-4.0"
   ],
   "description": "A Unicode 13.0 standard based way to implement emoji across all platforms.",
-  "homepage": "https://github.com/twitter/twemoji",
+  "homepage": "https://github.com/discordapp/twemoji",
   "keywords": [
     "emoji",
     "DOM",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twitter/twemoji.git"
+    "url": "git://github.com/discordapp/twemoji.git"
   },
   "main": "./dist/twemoji.npm.js",
   "module": "./dist/twemoji.esm.js",
