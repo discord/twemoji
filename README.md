@@ -2,9 +2,9 @@
 
 A simple library that provides standard Unicode [emoji](http://en.wikipedia.org/wiki/Emoji) support across all platforms.
 
-**Twemoji v13.1** adheres to the [Unicode 13.0 spec](https://unicode.org/versions/Unicode13.0.0/) and supports the [Emoji 13.1 spec](https://www.unicode.org/reports/tr51/tr51-19.html). _We do not support custom emoji._
+**Twemoji v14.0** adheres to the [Unicode 14.0 spec](https://unicode.org/versions/Unicode14.0.0/) and supports the [Emoji 14.0 spec](https://www.unicode.org/reports/tr51/tr51-21.html). _We do not support custom emoji._
 
-The Twemoji library offers support for **3,521** Unicode-defined emojis.
+The Twemoji library offers support for all Unicode-defined emoji which are recommended for general interchange (RGI).
 
 ## Usage
 
@@ -22,7 +22,7 @@ This guarantees that you will always use the latest version of the library.
 
 If, instead, you'd like to include the latest version explicitly, you can add the following tag:
 ```html
-<script src="https://twemoji.maxcdn.com/v/13.1.1/twemoji.min.js" integrity="sha384-h58ytIBBwfsRrWis9npsAUBwmjccRHrhH7yXq5LG9CjfnogUJqeRoojNKfmhHWz2" crossorigin="anonymous"></script>
+<script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js" integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
 ```
 
 ### Download
@@ -220,8 +220,10 @@ However, we consider the guide a bit onerous and as a project, will accept a men
 
 ## Community Projects
 
+* [Twemoji Cheatsheet](https://twemoji-cheatsheet.vercel.app) by [@ShahriarKh](https://github.com/ShahriarKh): An easy-to-use cheatsheet for exploring, copying and downloading emojis!
 * [Twemoji Amazing](https://github.com/SebastianAigner/twemoji-amazing) by [@SebastianAigner](https://github.com/SebastianAigner): Use Twemoji using CSS classes (like [Font Awesome](http://fortawesome.github.io/Font-Awesome/)).
 * [Twemoji Ruby](https://github.com/jollygoodcode/twemoji) by [@JollyGoodCode](https://twitter.com/jollygoodcode): Use Twemoji in Ruby.
+* [Twemoji Utils](https://github.com/gustavwilliam/twemoji-utils) by [@gustavwilliam](https://github.com/gustavwilliam): Utilities for finding and downloading Twemoji source files.
 * [Twemoji for Pencil](https://github.com/nathanielw/Twemoji-for-Pencil) by [@Nathanielnw](https://twitter.com/nathanielnw): Use Twemoji in Pencil.
 * [FrwTwemoji - Twemoji in dotnet](http://github.frenchw.net/FrwTwemoji/) by [@FrenchW](https://twitter.com/frenchw): Use Twemoji in any dotnet project (C#, asp.net ...).
 * [Emojiawesome - Twemoji for Yellow](https://github.com/datenstrom/yellow-extensions/tree/master/source/emojiawesome) by [@datenstrom](https://github.com/datenstrom/): Use Twemoji on your website.
