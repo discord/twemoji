@@ -13,7 +13,7 @@ Guidelines for bug reports:
    reported.
 
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
-   latest `master` or development branch in the repository.
+   latest `main` or development branch in the repository.
 
 3. **Isolate the problem** &mdash; ideally create a reduced test
    case and a live example.
@@ -43,7 +43,7 @@ If you'd like to test and/or contribute please follow these instructions.
 
 ```bash
 # clone your fork
-git clone -b master https://github.com/$YOUR_USERNAME/twemoji.git/
+git clone -b main https://github.com/$YOUR_USERNAME/twemoji.git/
 cd twemoji
 
 # install dependencies
@@ -89,7 +89,7 @@ commits.
 1. Push your topic branch up to your fork: `git push origin my-feature-branch`
 
 2. [Open a Pull Request](http://help.github.com/send-pull-requests/) with a
-   clear title and description. One for your changes in `master` and another one for
+   clear title and description. One for your changes in `main` and another one for
    your changes in `gh-pages`.
 
 ## License
