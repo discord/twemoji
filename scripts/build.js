@@ -234,7 +234,21 @@ function createTwemoji() {
            *    console.log("emoji All The Things!");
            *  }
            */
-          test: test
+          test: test,
+
+          /**
+           * Given a string, returns the same string if it contains only a single emoji, null otherwise.
+           * 
+           * @param   string  some text that might be a single emoji
+           * @return  string  the same string if it contains only a single emoji, null otherwise.
+           *
+           * @example
+           *
+           *  if (twemoji.isSingleEmoji(someContent)) {
+           *    console.log("This is a single emoji!");
+           *  }
+           */
+          isSingleEmoji: isSingleEmoji
         },
 
         // used to escape HTML special chars in attributes
@@ -566,6 +580,13 @@ function createTwemoji() {
         var result = re.test(text);
         re.lastIndex = 0;
         return result;
+      }
+
+      function isSingleEmoji(text) {
+        re.lastIndex = 0;
+        var match = re.exec(text);
+        re.lastIndex = 0;
+        return match && match[0] === text ? text : null;
       }
 
       function toCodePoint(unicodeSurrogates, sep) {

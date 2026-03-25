@@ -87,6 +87,7 @@ export type Twemoji = {
   parse<T extends string | HTMLElement>(node: T, options?: TwemojiOptions | ParseCallback): T extends string ? string : T;
   replace(text: string, replacer: string | ReplacerFunction): string;
   test(text: string): boolean;
+  isSingleEmoji(text: string): string | null;
   onerror(): void;
 };
 

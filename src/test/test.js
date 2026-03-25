@@ -104,6 +104,42 @@ wru.test([{
     );
   }
 },{
+  name: 'twemoji.isSingleEmoji(str)',
+  test: function () {
+    wru.assert(
+      'single emoji returns the emoji string',
+      twemoji.isSingleEmoji('\u2764') === '\u2764'
+    );
+    wru.assert(
+      'single emoji with variant returns the emoji string',
+      twemoji.isSingleEmoji('\u2764\uFE0F') === '\u2764\uFE0F'
+    );
+    wru.assert(
+      'emoji preceded by text returns null',
+      twemoji.isSingleEmoji('hello \u2764') === null
+    );
+    wru.assert(
+      'emoji followed by text returns null',
+      twemoji.isSingleEmoji('\u2764 hello') === null
+    );
+    wru.assert(
+      'two emojis returns null',
+      twemoji.isSingleEmoji('\u2764\u{1F44D}') === null
+    );
+    wru.assert(
+      'plain text returns null',
+      twemoji.isSingleEmoji('hello') === null
+    );
+    wru.assert(
+      'empty string returns null',
+      twemoji.isSingleEmoji('') === null
+    );
+    wru.assert(
+      'text-variant emoji (\\uFE0E) returns null',
+      twemoji.isSingleEmoji('\u2764\uFE0E') === null
+    );
+  }
+},{
   name: 'DOM parsing',
   test: function () {
     var img,
